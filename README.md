@@ -20,3 +20,5 @@ The vision of this project is to create a transparent and trustless event planni
 
 ## Contract Address
 0x09548055Cdec8c44455C7b470613CC36017b00CF
+![image](https://github.com/user-attachments/assets/01d9040e-42c0-49b5-b35d-3d571530f1e0)
+
