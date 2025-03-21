@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tokenized Event Planning</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tokenized Event Planning</h1>
+        
+        <div class="event-section">
+            <h2>Create Event</h2>
+            <input type="text" id="eventName" placeholder="Event Name">
+            <button onclick="createEvent()">Create</button>
+        </div>
+
+        <div class="event-section">
+            <h2>Contribute to Event</h2>
+            <input type="number" id="eventId" placeholder="Event ID">
+            <input type="number" id="contributionAmount" placeholder="Amount in ETH">
+            <button onclick="contributeToEvent()">Contribute</button>
+        </div>
+
+        <div class="event-section">
+            <h2>Events</h2>
+            <button onclick="fetchEvents()">Load Events</button>
+            <ul id="eventList"></ul>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
